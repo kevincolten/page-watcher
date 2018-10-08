@@ -9,8 +9,8 @@ module.exports = {
     .setValue('#ii_searchreset', '78731')
     .click('#as-retailavailabilitysearch-searchbutton')
     .pause(1000)
-    .expect.element('[for="as-storeitem-R085"] .as-storeitem-indicatortext').text.to.contain("Unavailable for Pickup")
-    browser.expect.element('[for="as-storeitem-R216"] .as-storeitem-indicatortext').text.to.contain("Unavailable for Pickup")
+    .expect.element('[for="as-storeitem-R085"] .as-storeitem-indicatortext').text.to.not.contain('Today')
+    browser.expect.element('[for="as-storeitem-R216"] .as-storeitem-indicatortext').text.to.not.contain('Today')
 		browser.end();
 	}
 };
