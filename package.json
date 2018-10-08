@@ -1,0 +1,12 @@
+{
+  "name": "page-watcher",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kevin Colten <kevincolten@gmail.com>",
+  "license": "WTFPL",
+  "dependencies": {
+    "chromedriver": "^2.42.0",
+    "nightwatch": "^0.9.21",
+    "selenium-server-standalone-jar": "^3.14.0"
+  }
+}
