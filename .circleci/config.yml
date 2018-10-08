@@ -30,8 +30,8 @@ jobs:
       - deploy:
           name: Try Again
           command: |
-            sleep 5m
-            git config --global user.email "kevin@austincodingacademy.com"
+            sleep 1m
+            git config --global user.email "kevincolten@gmail.com"
             git config --global user.name "Kevin Colten"
             git commit --allow-empty -m "No luck"
             git push origin master
